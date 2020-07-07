@@ -17,7 +17,7 @@ function moveDodgerLeft() {
     let widthNumber = document.getElementById("game").offsetWidth;
     let limit = widthNumber - document.getElementById("dodger").offsetWidth;
     // console.log(width)
-    if (left < limit ) {
+    if (left < 360 ) {
       dodger.style.left = `${left + 1}px`;
     }
   }
